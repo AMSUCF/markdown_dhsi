@@ -3,7 +3,7 @@
 
 **Course Code:** DH 485  
 **Credits:** 3  
-**Meeting Time:** Tuesdays & Thursdays, 2:00-3:30 PM  
+**Meeting Time:** Tuesdays & Thursdays, 2:00-3:15 PM  
 **Location:** Digital Humanities Lab, Room 205  
 **Instructor:** [Instructor Name]  
 **Email:** [instructor@university.edu]  
