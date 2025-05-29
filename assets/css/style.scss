@@ -1,0 +1,239 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Barbie and Ken Theme Customizations */
+
+:root {
+  /* Barbie Pink Palette */
+  --barbie-pink: #E91E63;
+  --barbie-hot-pink: #FF1493;
+  --barbie-light-pink: #FFB6C1;
+  --barbie-pale-pink: #FFF0F5;
+  
+  /* Ken Blue/Teal Palette */
+  --ken-blue: #00BCD4;
+  --ken-teal: #26C6DA;
+  --ken-light-blue: #B2EBF2;
+  --ken-navy: #0277BD;
+  
+  /* Neutral Glamour Colors */
+  --glamour-gold: #FFD700;
+  --glamour-silver: #C0C0C0;
+  --glamour-white: #FFFFFF;
+  --glamour-black: #2C2C2C;
+}
+
+/* Override the dark midnight theme with Barbie glamour */
+body {
+  background: linear-gradient(135deg, var(--barbie-pale-pink) 0%, var(--ken-light-blue) 100%) !important;
+  font-family: 'Georgia', 'Times New Roman', serif !important;
+  color: var(--glamour-black) !important;
+}
+
+/* Header styling with Barbie vibes */
+header {
+  background: linear-gradient(45deg, var(--barbie-pink), var(--barbie-hot-pink)) !important;
+  border-bottom: 3px solid var(--glamour-gold) !important;
+  box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3) !important;
+}
+
+header h1 {
+  color: var(--glamour-white) !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+  font-weight: bold !important;
+  font-size: 2.5em !important;
+}
+
+header p {
+  color: var(--glamour-white) !important;
+  font-style: italic !important;
+  font-size: 1.2em !important;
+}
+
+/* Content area with Ken's cool tones */
+.inner {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-radius: 15px !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+  border: 2px solid var(--ken-teal) !important;
+  padding: 30px !important;
+  margin: 20px auto !important;
+}
+
+/* Headings with alternating Barbie/Ken colors */
+h1 {
+  color: var(--barbie-pink) !important;
+  border-bottom: 3px solid var(--glamour-gold) !important;
+  padding-bottom: 10px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+
+h2 {
+  color: var(--ken-blue) !important;
+  border-left: 5px solid var(--barbie-pink) !important;
+  padding-left: 15px !important;
+  font-weight: bold !important;
+}
+
+h3 {
+  color: var(--barbie-hot-pink) !important;
+  font-weight: bold !important;
+}
+
+h4 {
+  color: var(--ken-teal) !important;
+  font-style: italic !important;
+}
+
+/* Links with glamorous hover effects */
+a {
+  color: var(--barbie-pink) !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  transition: all 0.3s ease !important;
+}
+
+a:hover {
+  color: var(--ken-blue) !important;
+  text-shadow: 1px 1px 2px rgba(233, 30, 99, 0.3) !important;
+  transform: scale(1.05) !important;
+}
+
+/* Table styling with Barbie glamour */
+table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+  background: var(--glamour-white) !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+th {
+  background: linear-gradient(45deg, var(--barbie-pink), var(--barbie-hot-pink)) !important;
+  color: var(--glamour-white) !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  padding: 15px !important;
+  letter-spacing: 1px !important;
+}
+
+td {
+  padding: 12px 15px !important;
+  border-bottom: 1px solid var(--barbie-light-pink) !important;
+  color: var(--glamour-black) !important;
+}
+
+tr:nth-child(even) {
+  background: linear-gradient(90deg, var(--barbie-pale-pink), var(--ken-light-blue)) !important;
+}
+
+tr:hover {
+  background: linear-gradient(90deg, var(--barbie-light-pink), var(--ken-teal)) !important;
+  transform: scale(1.02) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Strong text styling */
+strong {
+  color: var(--barbie-hot-pink) !important;
+  font-weight: bold !important;
+}
+
+/* Code styling with Ken's tech vibes */
+code {
+  background: var(--ken-light-blue) !important;
+  color: var(--ken-navy) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  font-family: 'Courier New', monospace !important;
+  border: 1px solid var(--ken-teal) !important;
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 5px solid var(--barbie-pink) !important;
+  background: linear-gradient(90deg, var(--barbie-pale-pink), transparent) !important;
+  padding: 15px 20px !important;
+  margin: 20px 0 !important;
+  border-radius: 0 10px 10px 0 !important;
+  font-style: italic !important;
+  color: var(--glamour-black) !important;
+}
+
+/* List styling */
+ul, ol {
+  padding-left: 30px !important;
+}
+
+li {
+  margin-bottom: 8px !important;
+  color: var(--glamour-black) !important;
+}
+
+li::marker {
+  color: var(--barbie-pink) !important;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: none !important;
+  height: 3px !important;
+  background: linear-gradient(45deg, var(--barbie-pink), var(--ken-blue)) !important;
+  margin: 30px 0 !important;
+  border-radius: 2px !important;
+}
+
+/* Custom Barbie-Ken decorative elements */
+.inner::before {
+  content: "💖" !important;
+  position: absolute !important;
+  top: -10px !important;
+  right: 20px !important;
+  font-size: 2em !important;
+  background: var(--glamour-white) !important;
+  border-radius: 50% !important;
+  padding: 5px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Responsive glamour */
+@media screen and (max-width: 768px) {
+  .inner {
+    margin: 10px !important;
+    padding: 20px !important;
+  }
+  
+  header h1 {
+    font-size: 2em !important;
+  }
+  
+  header p {
+    font-size: 1em !important;
+  }
+}
+
+/* Add some sparkle animations */
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.1); }
+}
+
+h1:hover {
+  animation: sparkle 1.5s ease-in-out infinite !important;
+}
+
+/* Custom selection colors */
+::selection {
+  background: var(--barbie-light-pink) !important;
+  color: var(--glamour-black) !important;
+}
+
+::-moz-selection {
+  background: var(--barbie-light-pink) !important;
+  color: var(--glamour-black) !important;
+}

@@ -1,0 +1,7 @@
+title: Digital Humanities & Artificial Intelligence
+tagline: Spring 2025 Course Syllabus
+description: A comprehensive 15-week course exploring the intersection of digital humanities and artificial intelligence, covering AI applications in humanities research, ethical considerations, and hands-on projects.
+
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
